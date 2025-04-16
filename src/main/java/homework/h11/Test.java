@@ -26,6 +26,7 @@ public class Test {
 		String fq = util.getFrequentItem(content);
 		if ("啤酒,炸鸡".equals(fq) || "炸鸡,啤酒".equals(fq)) {
 			// 做对了
+			System.out.println("找到了2个一对 购买频率最高的商品");
 		}
 	}
 

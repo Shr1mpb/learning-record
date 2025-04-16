@@ -1,7 +1,6 @@
 package homework.h17;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -36,46 +35,46 @@ public class BattleField {
         int strength = Integer.parseInt(properties.getProperty(unitType + ".strength").trim());
         // 设置
         switch (unitType) {
-            case "base"->{
+            case "base":
                 PropLoadConfig.setBaseHealth(health);
                 PropLoadConfig.setBaseRange(range);
                 PropLoadConfig.setBaseStrength(strength);
-            }
-            case "heavyTank"->{
+                break;
+            case "heavyTank":
                 PropLoadConfig.setHeavyTankHealth(health);
                 PropLoadConfig.setHeavyTankRange(range);
                 PropLoadConfig.setHeavyTankStrength(strength);
-            }
-            case "mediumTank"->{
+                break;
+            case "mediumTank":
                 PropLoadConfig.setMediumTankHealth(health);
                 PropLoadConfig.setMediumTankRange(range);
                 PropLoadConfig.setMediumTankStrength(strength);
-            }
-            case "rifleSoldier"->{
+                break;
+            case "rifleSoldier":
                 PropLoadConfig.setRifleSoldierHealth(health);
                 PropLoadConfig.setRifleSoldierRange(range);
                 PropLoadConfig.setRifleSoldierStrength(strength);
-            }
-            case "RPGSoldier"->{
+                break;
+            case "RPGSoldier":
                 PropLoadConfig.setRpgSoldierHealth(health);
                 PropLoadConfig.setRpgSoldierRange(range);
                 PropLoadConfig.setRpgSoldierStrength(strength);
-            }
-            case "dog"->{
+                break;
+            case "dog":
                 PropLoadConfig.setDogHealth(health);
                 PropLoadConfig.setDogRange(range);
                 PropLoadConfig.setDogStrength(strength);
-            }
-            case "barrack"->{
+                break;
+            case "barrack":
                 PropLoadConfig.setBarrackHealth(health);
                 PropLoadConfig.setBarrackRange(range);
                 PropLoadConfig.setBarrackStrength(strength);
-            }
-            case "warFactory"->{
+                break;
+            case "warFactory":
                 PropLoadConfig.setWarFactoryHealth(health);
                 PropLoadConfig.setWarFactoryRange(range);
                 PropLoadConfig.setWarFactoryStrength(strength);
-            }
+                break;
         }
 
     }
