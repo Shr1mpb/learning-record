@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 public class Hot44 {
     // 二叉搜索树中第 K 小的元素

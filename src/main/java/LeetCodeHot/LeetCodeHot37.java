@@ -1,9 +1,7 @@
 package LeetCodeHot;
 
-import LeetCodeHot.hot24.ListNode;
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
-import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 

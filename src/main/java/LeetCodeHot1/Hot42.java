@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 public class Hot42 {
     // 将有序数组转换为二叉搜索树

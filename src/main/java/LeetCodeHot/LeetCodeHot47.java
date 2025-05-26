@@ -1,7 +1,6 @@
 package LeetCodeHot;
 
-import com.sun.source.tree.Tree;
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 import java.util.*;
 

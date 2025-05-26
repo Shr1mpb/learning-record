@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 public class Hot43 {
     // 验证二叉搜索树

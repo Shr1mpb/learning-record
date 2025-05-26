@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 public class Hot40 {
     // 二叉树的直径

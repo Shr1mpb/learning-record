@@ -1,6 +1,6 @@
 package LeetCodeHot1;
 
-import homework.tree.TreeNode;
+import homework.oop.tree.TreeNode;
 
 public class Hot50 {// 二叉树中的最大路径和
     private int max = Integer.MIN_VALUE;

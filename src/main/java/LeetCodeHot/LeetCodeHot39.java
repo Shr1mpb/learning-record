@@ -1,10 +1,6 @@
 package LeetCodeHot;
 
-import LeetCodeHot.hot24.ListNode;
-import homework.tree.TreeNode;
-
-import java.util.ArrayList;
-import java.util.List;
+import homework.oop.tree.TreeNode;
 
 public class LeetCodeHot39 {
     /**
