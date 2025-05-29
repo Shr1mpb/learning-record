@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 /**
- * 确保test.in输入文件位于jar包运行的目录下
+ * 确保test.in输入文件位于jar包/class文件运行的目录下
  * 动态规划算法求0/1背包问题的解
  * 输入文件格式如下：
  *      物品数量
@@ -19,7 +19,7 @@ import java.util.*;
  *      ...
  * 此外，还会输出time.out文件 里面记录了计算耗时(单位：ms)
  */
-public class KnapsackSolver {
+public class KnapsackSolver1 {
 
     /**
      * 物品类，表示背包问题中的一个物品
